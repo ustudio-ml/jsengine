@@ -12,11 +12,6 @@
 </div>
 
 <div class="sliding w3-container w3-blue">
-<h1>Did you know?</h1>
-<p>I don't know</p>
-</div>
-
-<div class="sliding w3-container w3-red">
 <h1>Hmm</h1>
 <p>Hi, welcome to UStudio! </p>
 </div>
@@ -25,22 +20,5 @@
 <h2>UStudio</h2>
 <p>ZenxDev <span class="w3-tag w3-round-large w3-teal w3-small w3-center">Owner</span></p>
 </header>
-
-<script>
-var slideIndex = 0;
-caraosel();
-
-function caraosel(){
-var i;
-var x = document.getElementsByClassName("sliding");
-for (i = 0; i < x.length; i++) {
-  x[i].style.display = "none";
-}
-slideIndex++;
-if (slideIndex > x.length) {slideIndex = 1}
-x[slideIndex-1].style.display = "block";
-setTimeout(carousel, 2000);
-}
-</script>
 </body>
 </html>
